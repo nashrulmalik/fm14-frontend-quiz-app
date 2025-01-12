@@ -48,7 +48,7 @@ function startQuiz(quiz) {
     showQuestion();
 
     const image = document.createElement('img')
-    image.src = `./assets/images/${currentQuiz.title}.png`
+    image.src = `assets/images/${currentQuiz.title.toLowerCase()}.png`
     quizTitle.appendChild(image);
 
     const myDiv = document.createElement('div')
