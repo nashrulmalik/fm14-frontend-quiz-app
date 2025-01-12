@@ -27,7 +27,7 @@ function displayQuizSelection(quizzes) {
         const li = document.createElement('li');
         
         const image = document.createElement('img')
-        image.src = `/assets/images/${quiz.title.toLowerCase()}.png`
+        image.src = `assets/images/${quiz.title.toLowerCase()}.png`
         li.appendChild(image);
 
         const myDiv = document.createElement('div')
